@@ -1,18 +1,24 @@
-# Tags: latest, 7.17.1-debian-10-r22, 7.17.1, 7-debian-10, 7
+# Tags: latest, 7.17.1-debian-10-r23, 7.17.1, 7-debian-10, 7
 FROM bitnami/kibana:latest
-FROM bitnami/kibana:7.17.1-debian-10-r22
+FROM bitnami/kibana:7.17.1-debian-10-r23
 FROM bitnami/kibana:7.17.1
 FROM bitnami/kibana:7-debian-10
 FROM bitnami/kibana:7
 
-# Tags: 6.8.23-debian-10-r72, 6.8.23, 6-debian-10, 6
-FROM bitnami/kibana:6.8.23-debian-10-r72
+# Tags: 6.8.23-debian-10-r73, 6.8.23, 6-debian-10, 6
+FROM bitnami/kibana:6.8.23-debian-10-r73
 FROM bitnami/kibana:6.8.23
 FROM bitnami/kibana:6-debian-10
 FROM bitnami/kibana:6
 
 # Tags: _
 FROM bitnami/kibana:_
+
+# Tags: 6.8.23-debian-10-r72
+FROM bitnami/kibana:6.8.23-debian-10-r72
+
+# Tags: 7.17.1-debian-10-r22
+FROM bitnami/kibana:7.17.1-debian-10-r22
 
 # Tags: 6.8.23-debian-10-r71
 FROM bitnami/kibana:6.8.23-debian-10-r71
@@ -182,6 +188,3 @@ FROM bitnami/kibana:6.8.23-debian-10-r44
 
 # Tags: 7.17.0-debian-10-r20
 FROM bitnami/kibana:7.17.0-debian-10-r20
-
-# Tags: 6.8.23-debian-10-r43
-FROM bitnami/kibana:6.8.23-debian-10-r43
