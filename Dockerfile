@@ -1,18 +1,43 @@
-# Tags: latest, 7.17.1-debian-10-r23, 7.17.1, 7-debian-10, 7
+# Tags: latest, 7.17.2-debian-10-r2, 7.17.2, 7-debian-10, 7
 FROM bitnami/kibana:latest
-FROM bitnami/kibana:7.17.1-debian-10-r23
-FROM bitnami/kibana:7.17.1
+FROM bitnami/kibana:7.17.2-debian-10-r2
+FROM bitnami/kibana:7.17.2
 FROM bitnami/kibana:7-debian-10
 FROM bitnami/kibana:7
 
-# Tags: 6.8.23-debian-10-r73, 6.8.23, 6-debian-10, 6
-FROM bitnami/kibana:6.8.23-debian-10-r73
+# Tags: 6.8.23-debian-10-r77, 6.8.23, 6-debian-10, 6
+FROM bitnami/kibana:6.8.23-debian-10-r77
 FROM bitnami/kibana:6.8.23
 FROM bitnami/kibana:6-debian-10
 FROM bitnami/kibana:6
 
 # Tags: _
 FROM bitnami/kibana:_
+
+# Tags: 6.8.23-debian-10-r76
+FROM bitnami/kibana:6.8.23-debian-10-r76
+
+# Tags: 7.17.2-debian-10-r1
+FROM bitnami/kibana:7.17.2-debian-10-r1
+
+# Tags: 6.8.23-debian-10-r75
+FROM bitnami/kibana:6.8.23-debian-10-r75
+
+# Tags: 7.17.2-debian-10-r0
+FROM bitnami/kibana:7.17.2-debian-10-r0
+
+# Tags: 6.8.23-debian-10-r74
+FROM bitnami/kibana:6.8.23-debian-10-r74
+
+# Tags: 7.17.1-debian-10-r24, 7.17.1
+FROM bitnami/kibana:7.17.1-debian-10-r24
+FROM bitnami/kibana:7.17.1
+
+# Tags: 6.8.23-debian-10-r73
+FROM bitnami/kibana:6.8.23-debian-10-r73
+
+# Tags: 7.17.1-debian-10-r23
+FROM bitnami/kibana:7.17.1-debian-10-r23
 
 # Tags: 6.8.23-debian-10-r72
 FROM bitnami/kibana:6.8.23-debian-10-r72
@@ -164,27 +189,3 @@ FROM bitnami/kibana:6.8.23-debian-10-r48
 
 # Tags: 7.17.0-debian-10-r24
 FROM bitnami/kibana:7.17.0-debian-10-r24
-
-# Tags: 6.8.23-debian-10-r47
-FROM bitnami/kibana:6.8.23-debian-10-r47
-
-# Tags: 7.17.0-debian-10-r23
-FROM bitnami/kibana:7.17.0-debian-10-r23
-
-# Tags: 6.8.23-debian-10-r46
-FROM bitnami/kibana:6.8.23-debian-10-r46
-
-# Tags: 7.17.0-debian-10-r22
-FROM bitnami/kibana:7.17.0-debian-10-r22
-
-# Tags: 6.8.23-debian-10-r45
-FROM bitnami/kibana:6.8.23-debian-10-r45
-
-# Tags: 7.17.0-debian-10-r21
-FROM bitnami/kibana:7.17.0-debian-10-r21
-
-# Tags: 6.8.23-debian-10-r44
-FROM bitnami/kibana:6.8.23-debian-10-r44
-
-# Tags: 7.17.0-debian-10-r20
-FROM bitnami/kibana:7.17.0-debian-10-r20
